@@ -1,0 +1,30 @@
+{
+  "name": "aprendiendo-npm",
+  "version": "1.0.0",
+  "description": "En este paquete aprenderemos a trabajar con npm",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epereze/nodejs.git"
+  },
+  "author": "Elmer Pérez <elgraf01@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epereze/nodejs/issues"
+  },
+  "homepage": "https://github.com/epereze/nodejs#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "owl.carousel": "^2.2.0",
+    "wowjs": "^1.1.3"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-rc.3"
+  }
+}
